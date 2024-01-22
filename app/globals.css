@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --color-text: 3 3 18;
+    --color-background: 237 237 252;
+    --color-primary: 221 44 44;
+    --color-secondary: 255 255 255;
+    --color-accent: 17 218 232;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}

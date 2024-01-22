@@ -1,0 +1,40 @@
+{
+    "private": true,
+    "name": "next13-tailwind-template",
+    "version": "0.1.0",
+    "engines": {
+        "node": "20.x"
+    },
+    "scripts": {
+        "build": "next build",
+        "dev": "next dev",
+        "lint": "next lint",
+        "lint:fix": "next lint --fix",
+        "start": "next start"
+    },
+    "dependencies": {
+        "@headlessui/react": "^1.7.18",
+        "@heroicons/react": "^2.0.18",
+        "@hookform/resolvers": "^3.3.4",
+        "@tailwindcss/forms": "^0.5.3",
+        "@types/node": "20.11.5",
+        "@types/react": "^18.2.48",
+        "@types/react-dom": "^18.2.18",
+        "autoprefixer": "10.4.17",
+        "class-variance-authority": "^0.7.0",
+        "clsx": "^2.1.0",
+        "eslint": "8.56.0",
+        "eslint-config-next": "^14.1.0",
+        "next": "^14.1.0",
+        "postcss": "8.4.33",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "react-feather": "^2.0.10",
+        "react-hook-form": "^7.49.3",
+        "react-hot-toast": "^2.4.1",
+        "tailwind-merge": "^2.2.1",
+        "tailwindcss": "3.4.1",
+        "typescript": "5.3.3",
+        "zod": "^3.21.4"
+    }
+}
