@@ -126,6 +126,7 @@
 
 :root {
     --font: 'Inconsolata', monospace;
+    --nav: #162121;
 }
 
 * {

@@ -46,7 +46,7 @@ function Navbar() {
 
     return (
         <motion.div
-            className="bg-primary/10 shadow-sm mx-auto  fixed left-0 right-0 transition-all"
+            className="bg-[var(--nav)] shadow-sm mx-auto  fixed left-0 right-0 transition-all"
             style={{
                 borderRadius: borderRadius,
                 top: top,
