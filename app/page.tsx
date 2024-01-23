@@ -13,12 +13,13 @@ export default function Home() {
                         </span>
                     </h1>
                     <p className="lg:text-lg text-muted mt-4 font-medium max-w-xl">
-                        Greetings! I'm a passionate full-stack web developer
+                        Greetings! I{"'"}m a passionate full-stack web developer
                         with over three years of hands-on experience. I thrive
                         on turning ideas into seamless digital experiences. With
                         a background in freelancing, I bring a proven track
                         record of delivering exceptional services to diverse
-                        clients. Let's craft something extraordinary together!
+                        clients. Let{"'"}s craft something extraordinary
+                        together!
                     </p>
                     <div className="links mt-10 flex items-center gap-6">
                         <a className="hover:scale-110 cursor-pointer">
