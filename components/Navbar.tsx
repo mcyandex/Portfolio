@@ -1,11 +1,11 @@
 'use client'
 
-import React, { useState } from 'react'
+import React from 'react'
 import { motion, useMotionValue, useScroll, useTransform } from 'framer-motion'
 import Link from 'next/link'
 import { Button } from './ui/button'
 import { MenuIcon } from 'lucide-react'
-import { Card, CardContent } from './ui/card'
+import { Card } from './ui/card'
 
 const navLinks = [
     {
@@ -31,8 +31,8 @@ function Navbar() {
     )
     const top = useTransform(scrollY, [0, 200, 200], ['0rem', '0rem', '1rem'])
     const width = useTransform(scrollY, [0, 200, 200], ['100%', '100%', '95%'])
-    const height = useMotionValue<'0' | '1000px'>('1000px')
-    const opacity = useMotionValue<'0' | '1'>('1')
+    const height = useMotionValue<'0' | '1000px'>('0')
+    const opacity = useMotionValue<'0' | '1'>('0')
 
     function toggleNav() {
         if (height.get() === '1000px') {
@@ -46,7 +46,7 @@ function Navbar() {
 
     return (
         <motion.div
-            className="bg-[var(--nav)] shadow-sm mx-auto  fixed left-0 right-0 transition-all"
+            className="bg-[var(--nav)] shadow-sm mx-auto  fixed z-50 left-0 right-0 transition-all"
             style={{
                 borderRadius: borderRadius,
                 top: top,

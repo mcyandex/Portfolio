@@ -4,11 +4,11 @@ import { GitHub, Instagram } from 'react-feather'
 export default function Home() {
     return (
         <main className="flex min-h-[300vh] bg-background">
-            <section className="lg:h-screen w-full flex flex-col lg:flex-row items-center px-10 lg:px-0 max-w-7xl mx-auto">
+            <section className="lg:h-screen w-full flex flex-col lg:flex-row items-center px-10 lg:px-0 max-w-7xl mx-auto py-28">
                 <div className="text w-full lg:w-1/2">
-                    <h1 className="text-3xl">
+                    <h1 className="text-2xl lg:text-3xl">
                         Hi I{"'"}m <br />
-                        <span className="text-8xl font-semibold bg-clip-text text-transparent bg-gradient-to-br from-primary  to-accent">
+                        <span className="text-6xl lg:text-8xl font-semibold bg-clip-text text-transparent bg-gradient-to-br from-primary  to-accent">
                             Chirag
                         </span>
                     </h1>
@@ -35,6 +35,13 @@ export default function Home() {
                             <Mail height={35} width={35} />
                         </a>
                     </div>
+                </div>
+                <div className="image w-full lg:w-1/2">
+                    <img
+                        src="/image1.svg"
+                        className="w-full aspect-square"
+                        alt=""
+                    />
                 </div>
             </section>
         </main>
