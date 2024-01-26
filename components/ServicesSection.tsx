@@ -25,7 +25,7 @@ function ServicesSection() {
                                 y: 0,
                             }}
                             transition={{
-                                duration: 0.8,
+                                duration: 0.4,
                             }}
                             viewport={{
                                 once: true,
