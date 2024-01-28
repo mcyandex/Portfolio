@@ -3,7 +3,7 @@ import React from 'react'
 
 function SkillsSection() {
     return (
-        <section className="lg:min-h-screen max-w-7xl mx-auto p-10 lg:px-0 py-28">
+        <section className="lg:min-h-screen max-w-7xl mx-auto p-10  py-28">
             <h2 className="text-primary text-6xl font-semibold mb-20">
                 My Skills
             </h2>
@@ -15,7 +15,7 @@ function SkillsSection() {
                         className="w-full aspect-square"
                     />
                 </div>
-                <div className="w-full lg:w-1/2 grid grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-10">
+                <div className="w-full lg:px-20 lg:w-1/2 grid grid-cols-3  md:grid-cols-4 gap-4 lg:gap-10">
                     {skills.map(({ name, icon }, index) => {
                         return (
                             <div
@@ -27,7 +27,7 @@ function SkillsSection() {
                                     alt=""
                                     className="w-full aspect-square"
                                 />
-                                <p className='text-center'>{name}</p>
+                                <p className="text-center">{name}</p>
                             </div>
                         )
                     })}

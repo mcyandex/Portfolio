@@ -4,7 +4,7 @@ import { GitHub, Instagram } from 'react-feather'
 
 function HeroSection() {
     return (
-        <section className="lg:h-screen w-full flex flex-col lg:flex-row items-center px-10 lg:px-0 max-w-7xl mx-auto py-28">
+        <section className="lg:h-screen w-full flex flex-col lg:flex-row items-center px-10  max-w-7xl mx-auto py-28">
             <div className="text w-full lg:w-1/2">
                 <h1 className="text-2xl lg:text-3xl">
                     Hi I{"'"}m <br />
