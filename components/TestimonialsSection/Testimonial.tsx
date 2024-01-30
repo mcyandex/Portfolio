@@ -1,6 +1,6 @@
 import React from 'react'
 import { Instagram, Linkedin, GitHub, PhoneCall } from 'react-feather'
-import { motion } from 'framer-motion'
+
 const featuredTestimonial = {
     body: 'Integer id nunc sit semper purus. Bibendum at lacus ut arcu blandit montes vitae auctor libero. Hac condimentum dignissim nibh vulputate ut nunc. Amet nibh orci mi venenatis blandit vel et proin. Non hendrerit in vel ac diam.',
     author: {
@@ -13,7 +13,7 @@ const featuredTestimonial = {
 
 function Testimonial() {
     return (
-        <motion.figure className="rounded-2xl bg-background shadow-lg ring-1 ring-primary">
+        <figure className="rounded-2xl bg-background shadow-lg ring-1 ring-primary">
             <blockquote className="p-6 text-lg font-semibold leading-7 tracking-tight sm:p-12 sm:text-xl sm:leading-8">
                 <p>{`“${featuredTestimonial.body}”`}</p>
             </blockquote>
@@ -44,7 +44,7 @@ function Testimonial() {
                     </a>
                 </div>
             </figcaption>
-        </motion.figure>
+        </figure>
     )
 }
 
