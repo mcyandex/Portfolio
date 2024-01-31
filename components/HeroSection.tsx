@@ -1,8 +1,9 @@
 import { Linkedin, Mail } from 'lucide-react'
 import React from 'react'
 import { GitHub, Instagram } from 'react-feather'
-import { Button } from './ui/button'
+import { Button, buttonVariants } from './ui/button'
 import Link from 'next/link'
+import { cn } from '@/lib/utils'
 
 function HeroSection() {
     return (
@@ -57,9 +58,15 @@ function HeroSection() {
                     </Link>
                 </div>
                 <div className="button">
-                    <Button size={'lg'} className="font-bold text-xl my-5 ">
+                    <Link
+                        href="#contact"
+                        className={cn(
+                            buttonVariants({ variant: 'default', size: 'lg' }),
+                            'font-bold text-xl my-5 '
+                        )}
+                    >
                         Contact Me
-                    </Button>
+                    </Link>
                 </div>
             </div>
             <div className="image w-full lg:w-1/2 relative aspect-square -mt-10 ">
