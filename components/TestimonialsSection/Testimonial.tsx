@@ -1,35 +1,31 @@
 import React from 'react'
 import { Instagram, Linkedin, GitHub, PhoneCall } from 'react-feather'
 
-const featuredTestimonial = {
-    body: 'Integer id nunc sit semper purus. Bibendum at lacus ut arcu blandit montes vitae auctor libero. Hac condimentum dignissim nibh vulputate ut nunc. Amet nibh orci mi venenatis blandit vel et proin. Non hendrerit in vel ac diam.',
-    author: {
-        name: 'Brenna Goyette',
-        handle: 'brennagoyette',
-        imageUrl:
-            'https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=1024&h=1024&q=80',
-    },
+interface TestimonialProps {
+    body: string
+    name: string
+    email: string
 }
 
-function Testimonial() {
+function Testimonial({ body, name, email }: TestimonialProps) {
     return (
-        <figure className="rounded-2xl bg-background shadow-lg ring-1 ring-primary">
-            <blockquote className="p-6 text-lg font-semibold leading-7 tracking-tight sm:p-12 sm:text-xl sm:leading-8">
-                <p>{`“${featuredTestimonial.body}”`}</p>
+        <figure className="rounded-2xl bg-background shadow-lg ring-1 ring-primary flex flex-col">
+            <blockquote className="p-6 text-lg font-semibold leading-7 tracking-tight sm:p-12 sm:text-xl sm:leading-8 flex-1">
+                <p>{`“${body}”`}</p>
             </blockquote>
-            <figcaption className="flex flex-wrap items-center gap-x-4 gap-y-4 border-t border-primary/10 px-6 py-4 lg:flex-nowrap">
-                <img
+            <figcaption className="flex flex-wrap items-center gap-x-4 gap-y-4 border-t border-primary/10 px-6 py-4 sm:px-12 lg:flex-nowrap">
+                {/* <img
                     className="h-10 w-10 flex-none rounded-full bg-gray-50"
                     src={featuredTestimonial.author.imageUrl}
                     alt=""
-                />
+                /> */}
                 <div className="flex-auto">
                     <div className="font-semibold">
-                        {featuredTestimonial.author.name}
+                        {name}
                     </div>
-                    <div className="text-muted">{`@${featuredTestimonial.author.handle}`}</div>
+                    <div className="text-muted">{`${email}`}</div>
                 </div>
-                <div className="links flex items-center gap-1 text-primary">
+                {/* <div className="links flex items-center gap-1 text-primary">
                     <a className="rounded-full hover:bg-secondary p-2" href="">
                         <Instagram />
                     </a>
@@ -42,7 +38,7 @@ function Testimonial() {
                     <a className="rounded-full hover:bg-secondary p-2" href="">
                         <PhoneCall />
                     </a>
-                </div>
+                </div> */}
             </figcaption>
         </figure>
     )

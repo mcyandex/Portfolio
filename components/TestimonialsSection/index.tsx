@@ -1,5 +1,6 @@
 import React from 'react'
 import Testimonial from './Testimonial'
+import testimonials from '@/configs/testimonials'
 
 function TestimonialsSection() {
     return (
@@ -9,10 +10,9 @@ function TestimonialsSection() {
                     Testimonials
                 </h2>
                 <div className="testimonials grid md:grid-cols-2 gap-4">
-                    <Testimonial />
-                    <Testimonial />
-                    <Testimonial />
-                    <Testimonial />
+                    {testimonials.map((testimonial, index) => {
+                        return <Testimonial {...testimonial} key={index} />
+                    })}
                 </div>
             </div>
         </section>
