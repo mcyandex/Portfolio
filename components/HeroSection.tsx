@@ -2,6 +2,7 @@ import { Linkedin, Mail } from 'lucide-react'
 import React from 'react'
 import { GitHub, Instagram } from 'react-feather'
 import { Button } from './ui/button'
+import Link from 'next/link'
 
 function HeroSection() {
     return (
@@ -22,21 +23,43 @@ function HeroSection() {
                     s craft something extraordinary together!
                 </p>
                 <div className="links mt-10 flex items-center gap-6">
-                    <a className="hover:scale-110 cursor-pointer">
+                    <Link
+                        href={'https://github.com/chirag3003'}
+                        target="_blank"
+                        referrerPolicy="no-referrer"
+                        className="hover:scale-110 cursor-pointer"
+                    >
                         <GitHub height={35} width={35} />
-                    </a>
-                    <a className="hover:scale-110 cursor-pointer">
+                    </Link>
+                    <Link
+                        href={'https://linkedin.com/in/chiragbhalotia'}
+                        target="_blank"
+                        referrerPolicy="no-referrer"
+                        className="hover:scale-110 cursor-pointer"
+                    >
                         <Linkedin height={35} width={35} />
-                    </a>
-                    <a className="hover:scale-110 cursor-pointer">
+                    </Link>
+                    <Link
+                        href={'https://www.instagram.com/code.chirag'}
+                        target="_blank"
+                        referrerPolicy="no-referrer"
+                        className="hover:scale-110 cursor-pointer"
+                    >
                         <Instagram height={35} width={35} />
-                    </a>
-                    <a className="hover:scale-110 cursor-pointer">
+                    </Link>
+                    <Link
+                        href={'mailto:me@chirag.codes'}
+                        target="_blank"
+                        referrerPolicy="no-referrer"
+                        className="hover:scale-110 cursor-pointer"
+                    >
                         <Mail height={35} width={35} />
-                    </a>
+                    </Link>
                 </div>
                 <div className="button">
-                    <Button size={"lg"} className='font-bold text-xl my-5 '>Contact Me</Button>
+                    <Button size={'lg'} className="font-bold text-xl my-5 ">
+                        Contact Me
+                    </Button>
                 </div>
             </div>
             <div className="image w-full lg:w-1/2 relative aspect-square -mt-10 ">

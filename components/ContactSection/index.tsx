@@ -8,10 +8,7 @@ import { Textarea } from '../ui/textarea'
 
 function ContactSection() {
     return (
-        <section
-            id="contact"
-            className="w-full px-10 max-w-7xl mx-auto py-28"
-        >
+        <section id="contact" className="w-full px-10 max-w-7xl mx-auto py-28">
             <h2 className="text-primary md:text-6xl text-5xl font-semibold mb-10">
                 Contact Me
             </h2>
@@ -47,11 +44,11 @@ function ContactSection() {
                     <Link
                         target="_blank"
                         referrerPolicy="no-referrer"
-                        href={'mail:me@chirag.codes'}
+                        href={'mailto:me@chirag.codes'}
                         className="flex items-center w-full justify-left text-2xl gap-5 font-bold px-10 py-5 bg-accent/10 rounded-xl"
                     >
                         <Mail height={35} width={35} />
-                        <p>Email</p>
+                        <p>chiragbhalotia0412@gmail.com</p>
                     </Link>
                 </div>
                 <div className="form w-full h-full overflow-hidden flex-col flex gap-5">
