@@ -1,6 +1,7 @@
 import { Linkedin, Mail } from 'lucide-react'
 import React from 'react'
 import { GitHub, Instagram } from 'react-feather'
+import { Button } from './ui/button'
 
 function HeroSection() {
     return (
@@ -33,6 +34,9 @@ function HeroSection() {
                     <a className="hover:scale-110 cursor-pointer">
                         <Mail height={35} width={35} />
                     </a>
+                </div>
+                <div className="button">
+                    <Button size={"lg"} className='font-bold text-xl my-5 '>Contact Me</Button>
                 </div>
             </div>
             <div className="image w-full lg:w-1/2 relative aspect-square -mt-10 ">
