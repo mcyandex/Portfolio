@@ -31,6 +31,11 @@ function Navbar() {
     )
     const top = useTransform(scrollY, [0, 200, 200], ['0rem', '0rem', '1rem'])
     const width = useTransform(scrollY, [0, 200, 200], ['100%', '100%', '95%'])
+    const borderWidth = useTransform(
+        scrollY,
+        [0, 200, 200],
+        ['0px', '0px', '1px']
+    )
     const height = useMotionValue<'0' | '1000px'>('0')
     const opacity = useMotionValue<'0' | '1'>('0')
 
@@ -51,6 +56,7 @@ function Navbar() {
                 borderRadius: borderRadius,
                 top: top,
                 width: width,
+                borderWidth,
             }}
         >
             <div className="wrapper px-10 py-5 w-full relative">
