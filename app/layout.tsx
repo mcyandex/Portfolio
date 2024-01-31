@@ -7,9 +7,8 @@ import Navbar from '@/components/Navbar'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-    title: 'Nextjs 14, TailwindCss Template',
-    description:
-        'A template for frontend developers created By Chirag Bhalotia',
+    title: 'Chirag Bhalotia',
+    description: 'Chirag Bhalotia | Full Stack Web Developer',
 }
 
 interface RootLayoutProps {
