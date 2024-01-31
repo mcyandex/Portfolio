@@ -8,7 +8,10 @@ import { Textarea } from '../ui/textarea'
 
 function ContactSection() {
     return (
-        <section className="w-full grid grid-cols-1 md:grid-cols-2  gap-10 items-center px-10  max-w-7xl mx-auto py-28">
+        <section
+            id="contact"
+            className="w-full grid grid-cols-1 md:grid-cols-2  gap-10 items-center px-10  max-w-7xl mx-auto py-28"
+        >
             <div className="contacts w-full flex-col flex gap-5">
                 <Link
                     target="_blank"
@@ -50,8 +53,13 @@ function ContactSection() {
             <div className="form w-full h-full overflow-hidden flex-col flex gap-5">
                 <Input type="text" placeholder="Name" />
                 <Input type="email" placeholder="Email" />
-                <Textarea placeholder="Type your message here." className='resize-none flex-1 h-full'/>
-                <Button className='w-full text-xl font-medium'>Send Message</Button>
+                <Textarea
+                    placeholder="Type your message here."
+                    className="resize-none flex-1 h-full"
+                />
+                <Button className="w-full text-xl font-medium">
+                    Send Message
+                </Button>
             </div>
         </section>
     )

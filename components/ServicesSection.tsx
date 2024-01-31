@@ -7,7 +7,7 @@ import services from '@/configs/services'
 
 function ServicesSection() {
     return (
-        <section className="bg-accent/5">
+        <section id="services" className="bg-accent/5">
             <div className="max-w-7xl mx-auto p-10 ">
                 <h2 className="text-primary text-6xl font-semibold mb-20">
                     My Services

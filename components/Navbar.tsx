@@ -9,16 +9,20 @@ import { Card } from './ui/card'
 
 const navLinks = [
     {
-        name: 'Link 1',
-        link: '#about',
+        name: 'Services',
+        link: '#services',
     },
     {
-        name: 'Link 2',
-        link: '#',
+        name: 'Skills',
+        link: '#skills',
     },
     {
-        name: 'Link 3',
-        link: '#',
+        name: 'Testimonials',
+        link: '#testimonials',
+    },
+    {
+        name: 'Contact',
+        link: '#contact',
     },
 ]
 

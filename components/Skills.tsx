@@ -3,7 +3,10 @@ import React from 'react'
 
 function SkillsSection() {
     return (
-        <section className="lg:min-h-screen max-w-7xl mx-auto p-10  py-28">
+        <section
+            id="skills"
+            className="lg:min-h-screen max-w-7xl mx-auto p-10  py-28"
+        >
             <h2 className="text-primary text-6xl font-semibold mb-20">
                 My Skills
             </h2>
