@@ -9,7 +9,7 @@ function ServicesSection() {
     return (
         <section id="services" className="bg-accent/5">
             <div className="max-w-7xl mx-auto p-10 ">
-                <h2 className="text-primary text-6xl font-semibold mb-20">
+                <h2 className="text-primary text-5xl md:text-6xl font-semibold mb-20">
                     My Services
                 </h2>
                 <div className="services grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
