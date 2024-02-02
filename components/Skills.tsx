@@ -13,6 +13,7 @@ function SkillsSection() {
             <div className="flex flex-col-reverse lg:flex-row w-full items-center">
                 <div className="w-full lg:w-1/2 items-center px-10">
                     <img
+                        loading="lazy"
                         src="/image1.svg"
                         alt=""
                         className="w-full aspect-square"
@@ -28,6 +29,7 @@ function SkillsSection() {
                                 <img
                                     src={icon}
                                     alt=""
+                                    loading="lazy"
                                     className="w-full aspect-square"
                                 />
                                 <p className="text-center">{name}</p>

@@ -32,6 +32,7 @@ function Testimonial({
             <figcaption className="flex flex-wrap items-center gap-x-4 gap-y-4 border-t border-primary/10 px-6 py-4 sm:px-12 lg:flex-nowrap">
                 {pfp && (
                     <img
+                        loading="lazy"
                         className="h-10 w-10 flex-none rounded-full bg-gray-50"
                         src={pfp}
                         alt=""
