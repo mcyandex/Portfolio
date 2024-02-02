@@ -1,11 +1,16 @@
+'use client'
+
 import { Linkedin, Mail } from 'lucide-react'
 import React from 'react'
 import { GitHub, Instagram } from 'react-feather'
 import { Button, buttonVariants } from './ui/button'
 import Link from 'next/link'
 import { cn } from '@/lib/utils'
+import { useToast } from './ui/use-toast'
+import { title } from 'process'
 
 function HeroSection() {
+    const { toast } = useToast()
     return (
         <section className="lg:h-screen w-full flex flex-col lg:flex-row items-center px-10  max-w-7xl mx-auto py-28">
             <div className="text w-full lg:w-1/2">
@@ -57,16 +62,29 @@ function HeroSection() {
                         <Mail height={35} width={35} />
                     </Link>
                 </div>
-                <div className="button">
+                <div className="button gap-2 flex items-center flex-col md:flex-row my-5">
                     <Link
                         href="#contact"
                         className={cn(
                             buttonVariants({ variant: 'default', size: 'lg' }),
-                            'font-bold text-xl my-5 '
+                            'font-bold text-xl md:w-auto w-full'
                         )}
                     >
                         Contact Me
                     </Link>
+                    <Button
+                        size={'lg'}
+                        className={cn('font-bold text-xl md:w-auto w-full')}
+                        onClick={() => {
+                            toast({
+                                title: 'Projects page coming soon!',
+                                description:
+                                    'Till then you can take a look at my github',
+                            })
+                        }}
+                    >
+                        My Projects
+                    </Button>
                 </div>
             </div>
             <div className="image w-full lg:w-1/2 relative aspect-square -mt-10 ">

@@ -1,14 +1,21 @@
 import { Inter } from 'next/font/google'
 
 import './globals.css'
-import { Toaster } from 'react-hot-toast'
+import { Toaster } from '@/components/ui/toaster'
 import Navbar from '@/components/Navbar'
+import { Metadata } from 'next'
 
 const inter = Inter({ subsets: ['latin'] })
 
-export const metadata = {
+export const metadata: Metadata = {
     title: 'Chirag Bhalotia',
     description: 'Chirag Bhalotia | Full Stack Web Developer',
+    authors: [
+        {
+            name: 'Chirag Bhalotia',
+            url: 'https://github.com/chirag3003',
+        },
+    ],
 }
 
 interface RootLayoutProps {
