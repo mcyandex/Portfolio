@@ -14,8 +14,10 @@ import {
 } from '@/validators/contact.validator'
 import { zodResolver } from '@hookform/resolvers/zod'
 import axios from 'axios'
+import { useToast } from '../ui/use-toast'
 
 function ContactSection() {
+    const { toast } = useToast()
     const {
         register,
         handleSubmit,
@@ -24,8 +26,15 @@ function ContactSection() {
         resolver: zodResolver(contactInputValidator),
     })
     const handleFormSubmit = async (data: ContactInput) => {
-        console.log(data)
-        await axios.post('/api/contact', data)
+        try {
+            await axios.post('/api/contact', data)
+            toast({ title: 'Your message was send successfully!' })
+        } catch (err) {
+            console.error(err)
+            toast({
+                title: 'Error Sending Message!',
+            })
+        }
     }
     return (
         <section id="contact" className="w-full px-10 max-w-7xl mx-auto py-28">
