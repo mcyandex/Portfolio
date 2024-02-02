@@ -1,3 +1,5 @@
+'use client'
+
 import React from 'react'
 import { Button } from '../ui/button'
 import Link from 'next/link'
@@ -5,8 +7,26 @@ import { GitHub, Instagram, Mail } from 'react-feather'
 import { Linkedin } from 'lucide-react'
 import { Input } from '@/components/ui/input'
 import { Textarea } from '../ui/textarea'
+import { useForm } from 'react-hook-form'
+import {
+    ContactInput,
+    contactInputValidator,
+} from '@/validators/contact.validator'
+import { zodResolver } from '@hookform/resolvers/zod'
+import axios from 'axios'
 
 function ContactSection() {
+    const {
+        register,
+        handleSubmit,
+        formState: { errors },
+    } = useForm<ContactInput>({
+        resolver: zodResolver(contactInputValidator),
+    })
+    const handleFormSubmit = async (data: ContactInput) => {
+        console.log(data)
+        await axios.post('/api/contact', data)
+    }
     return (
         <section id="contact" className="w-full px-10 max-w-7xl mx-auto py-28">
             <h2 className="text-primary md:text-6xl text-5xl font-semibold mb-10">
@@ -51,17 +71,44 @@ function ContactSection() {
                         <p>chiragbhalotia0412@gmail.com</p>
                     </Link>
                 </div>
-                <div className="form w-full h-full overflow-hidden flex-col flex gap-5">
-                    <Input type="text" placeholder="Name" />
-                    <Input type="email" placeholder="Email" />
+                <form
+                    onSubmit={handleSubmit(handleFormSubmit)}
+                    className="form w-full h-full overflow-hidden flex-col flex gap-5"
+                >
+                    <Input
+                        {...register('name')}
+                        type="text"
+                        placeholder="Name"
+                    />
+                    {errors.name && (
+                        <p className="text-destructive -mt-3 -mb-2">
+                            Please enter your name
+                        </p>
+                    )}
+                    <Input
+                        {...register('email')}
+                        type="email"
+                        placeholder="Email"
+                    />
+                    {errors.email && (
+                        <p className="text-destructive -mt-3 -mb-2">
+                            Please enter a valid email address
+                        </p>
+                    )}
                     <Textarea
+                        {...register('message')}
                         placeholder="Type your message here."
                         className="resize-none flex-1 h-full"
                     />
+                    {errors.message && (
+                        <p className="text-destructive -mt-3 -mb-2">
+                            Please enter a message
+                        </p>
+                    )}
                     <Button className="w-full text-xl font-medium">
                         Send Message
                     </Button>
-                </div>
+                </form>
             </div>
         </section>
     )
