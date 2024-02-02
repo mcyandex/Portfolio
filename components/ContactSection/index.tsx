@@ -32,7 +32,7 @@ function ContactSection() {
             <h2 className="text-primary md:text-6xl text-5xl font-semibold mb-10">
                 Contact Me
             </h2>
-            <div className="w-full grid grid-cols-1  md:grid-cols-2 gap-10">
+            <div className="w-full grid grid-cols-1  lg:grid-cols-2 gap-10">
                 <div className="contacts w-full flex-col flex gap-5">
                     <Link
                         target="_blank"
