@@ -50,6 +50,7 @@ function Testimonial({
                             href={instagram}
                         >
                             <Instagram />
+                            <div className="sr-only">Instagram</div>
                         </a>
                     )}
                     {linkedin && (
@@ -60,6 +61,7 @@ function Testimonial({
                             href={linkedin}
                         >
                             <Linkedin />
+                            <div className="sr-only">Linkedin</div>
                         </a>
                     )}
                     {github && (
@@ -70,6 +72,7 @@ function Testimonial({
                             href={github}
                         >
                             <GitHub />
+                            <div className="sr-only">Github</div>
                         </a>
                     )}
                     {dribbble && (
@@ -80,6 +83,7 @@ function Testimonial({
                             href={dribbble}
                         >
                             <Dribbble />
+                            <div className="sr-only">Dribbble</div>
                         </a>
                     )}
                     {phone && (

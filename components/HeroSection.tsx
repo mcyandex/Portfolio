@@ -37,6 +37,7 @@ function HeroSection() {
                         className="hover:scale-110 cursor-pointer"
                     >
                         <GitHub height={35} width={35} />
+                        <div className="sr-only">Github</div>
                     </Link>
                     <Link
                         href={'https://linkedin.com/in/chiragbhalotia'}
@@ -45,6 +46,7 @@ function HeroSection() {
                         className="hover:scale-110 cursor-pointer"
                     >
                         <Linkedin height={35} width={35} />
+                        <div className="sr-only">Linkedin</div>
                     </Link>
                     <Link
                         href={'https://www.instagram.com/code.chirag'}
@@ -53,6 +55,7 @@ function HeroSection() {
                         className="hover:scale-110 cursor-pointer"
                     >
                         <Instagram height={35} width={35} />
+                        <div className="sr-only">Instagram</div>
                     </Link>
                     <Link
                         href={'mailto:me@chirag.codes'}
@@ -61,6 +64,7 @@ function HeroSection() {
                         className="hover:scale-110 cursor-pointer"
                     >
                         <Mail height={35} width={35} />
+                        <div className="sr-only">Email</div>
                     </Link>
                 </div>
                 <div className="button gap-2 flex items-center flex-col md:flex-row my-5">

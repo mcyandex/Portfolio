@@ -89,6 +89,9 @@ function Navbar() {
                         className="lg:hidden"
                     >
                         <MenuIcon />
+                        <div className="sr-only">
+                            Menu Button
+                        </div>
                     </Button>
                 </div>
                 <motion.div
