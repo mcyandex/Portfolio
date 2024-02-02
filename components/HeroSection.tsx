@@ -8,6 +8,7 @@ import Link from 'next/link'
 import { cn } from '@/lib/utils'
 import { useToast } from './ui/use-toast'
 import { title } from 'process'
+import Image from 'next/image'
 
 function HeroSection() {
     const { toast } = useToast()
@@ -88,10 +89,12 @@ function HeroSection() {
                 </div>
             </div>
             <div className="image w-full lg:w-1/2 relative aspect-square -mt-10 ">
-                <img
+                <Image
                     src="/chirag.png"
                     className="w-full aspect-square"
                     alt=""
+                    fill={true}
+                    priority={true}
                 />
                 <div className="gradient absolute w-full h-1/2 bg-gradient-to-t from-background to-transparent bottom-0 left-0 right-0"></div>
             </div>
