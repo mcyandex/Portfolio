@@ -11,6 +11,8 @@ export const metadata: Metadata = {
     title: 'Chirag Bhalotia',
     description: 'Chirag Bhalotia | Full Stack Web Developer',
     icons: '/favicon.png',
+    creator:"Chirag Bhalotia",
+    
     authors: [
         {
             name: 'Chirag Bhalotia',
