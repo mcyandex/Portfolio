@@ -3,7 +3,7 @@ const testimonials = [
         body: "Chirag was amazing! He took my ideas and made them into a fantastic website. I'm not good with tech stuff, but he explained everything so well. Now, my website is way better than I imagined! Totally recommend!",
         name: 'Madhur Chopra',
         email: 'madhurchopra97441@gmail.com',
-        pfp: '/pfps/madhur.PNG',
+        pfp: '/pfps/madhur.png',
         linkedin: 'https://in.linkedin.com/in/madhur-chopra-ux',
         instagram:
             'https://www.instagram.com/madhur_chopra?igsh=MXVhZzljc3BsdzB6dg%3D%3D&utm_source=qr',
