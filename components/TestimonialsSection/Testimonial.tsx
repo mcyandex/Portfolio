@@ -1,5 +1,5 @@
 import React from 'react'
-import { Instagram, Linkedin, GitHub, PhoneCall } from 'react-feather'
+import { Instagram, Linkedin, GitHub, PhoneCall, Dribbble } from 'react-feather'
 
 interface TestimonialProps {
     body: string
@@ -20,9 +20,7 @@ function Testimonial({ body, name, email }: TestimonialProps) {
                     alt=""
                 /> */}
                 <div className="flex-auto">
-                    <div className="font-semibold">
-                        {name}
-                    </div>
+                    <div className="font-semibold">{name}</div>
                     <div className="text-muted">{`${email}`}</div>
                 </div>
                 {/* <div className="links flex items-center gap-1 text-primary">
@@ -34,6 +32,9 @@ function Testimonial({ body, name, email }: TestimonialProps) {
                     </a>
                     <a className="rounded-full hover:bg-secondary p-2" href="">
                         <GitHub />
+                    </a>
+                    <a className="rounded-full hover:bg-secondary p-2" href="">
+                        <Dribble />
                     </a>
                     <a className="rounded-full hover:bg-secondary p-2" href="">
                         <PhoneCall />
