@@ -1,7 +1,9 @@
 import { transporter } from '@/lib/nodemailer'
 import { contactInputValidator } from '@/validators/contact.validator'
+import { render } from '@react-email/render'
 import { ReasonPhrases, StatusCodes } from 'http-status-codes'
 import { ZodError } from 'zod'
+import { ContactEmailHtml } from '@/components/Emails/contact'
 
 export async function POST(req: Request) {
     try {
@@ -11,8 +13,14 @@ export async function POST(req: Request) {
                 {
                     from: process.env.GMAIL_USERNAME,
                     to: 'me@chirag.codes',
-                    subject: `You have received a mail from ${body.name}`,
-                    html: 'hello',
+                    subject: `You have received a message from ${body.name}`,
+                    html: render(
+                        ContactEmailHtml({
+                            name: body.name,
+                            email: body.email,
+                            message: body.message,
+                        })
+                    ),
                 },
                 function (err, info) {
                     if (err) {
