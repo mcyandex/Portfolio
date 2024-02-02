@@ -10,6 +10,7 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata: Metadata = {
     title: 'Chirag Bhalotia',
     description: 'Chirag Bhalotia | Full Stack Web Developer',
+    icons: '/favicon.png',
     authors: [
         {
             name: 'Chirag Bhalotia',
