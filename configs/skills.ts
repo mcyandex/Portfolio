@@ -5,7 +5,7 @@ const skills = [
     },
     {
         name: 'Kotlin',
-        icon: '/skills/kotlin.png',
+        icon: '/skills/kotlin.webp',
     },
     {
         name: 'Java',
@@ -13,11 +13,11 @@ const skills = [
     },
     {
         name: 'NextJS',
-        icon: '/skills/nextjs.png',
+        icon: '/skills/nextjs.webp',
     },
     {
         name: 'NodeJS',
-        icon: '/skills/nodejs.png',
+        icon: '/skills/nodejs.webp',
     },
     {
         name: 'JavaScript',

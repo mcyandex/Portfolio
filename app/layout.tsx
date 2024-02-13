@@ -1,11 +1,7 @@
-import { Inter } from 'next/font/google'
-
 import './globals.css'
 import { Toaster } from '@/components/ui/toaster'
 import Navbar from '@/components/Navbar'
 import { Metadata } from 'next'
-
-const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
     title: 'Chirag Bhalotia',
@@ -28,7 +24,7 @@ interface RootLayoutProps {
 export default function RootLayout({ children }: RootLayoutProps) {
     return (
         <html lang="en">
-            <body className={`${inter.className} text-text bg-background dark`}>
+            <body className={`text-text bg-background dark`}>
                 <Navbar />
                 {children}
                 <Toaster />
