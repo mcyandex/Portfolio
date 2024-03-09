@@ -491,15 +491,15 @@
   resolved "https://registry.yarnpkg.com/@react-email/body/-/body-0.0.7.tgz#f2ac3cef62c6ef5805f77e3cc3f907af3ff1e718"
   integrity sha512-vjJ5P1MUNWV0KNivaEWA6MGj/I3c764qQJMsKjCHlW6mkFJ4SXbm2OlQFtKAb++Bj8LDqBlnE6oW77bWcMc0NA==
 
-"@react-email/button@0.0.13":
-  version "0.0.13"
-  resolved "https://registry.yarnpkg.com/@react-email/button/-/button-0.0.13.tgz#9e148356d62393030d4efbe9a16b918165ea8466"
-  integrity sha512-e/y8u2odJ8fF83B+wvL2FXzVcbQSUh2Cn2JH2Ez4L6AuPELsh8s2JYo081IDsXc16IyFiYpObn0blOt7s/qp8g==
+"@react-email/button@0.0.14":
+  version "0.0.14"
+  resolved "https://registry.yarnpkg.com/@react-email/button/-/button-0.0.14.tgz#1508a38655697db7eddd678432255c5e99eb9b61"
+  integrity sha512-SMk40moGcAvkHIALX4XercQlK0PNeeEIam6OXHw68ea9WtzzqVwiK4pzLY0iiMI9B4xWHcaS2lCPf3cKbQBf1Q==
 
-"@react-email/code-block@0.0.2":
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/@react-email/code-block/-/code-block-0.0.2.tgz#4873ba652b85eefb648036d9cd7da5dc551e8d89"
-  integrity sha512-bQApEmpsvIcVYXdPCXhJB9CGCyShhn/c1JdctE/6R1uIosLbWt40evvVfp2X9STdi02Dhsjxw/AcGuQE6zGZqw==
+"@react-email/code-block@0.0.3":
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/@react-email/code-block/-/code-block-0.0.3.tgz#91b0c41729cdebade392c130382bf21f40898f30"
+  integrity sha512-nxhl7WjjM2cOYtl0boBZfSObTrUCz2LbarcMyHkTVAsA9rbjbtWAQF7jmlefXJusk3Uol5l2c8hTh2lHLlHTRQ==
   dependencies:
     prismjs "1.29.0"
 
@@ -513,14 +513,14 @@
   resolved "https://registry.yarnpkg.com/@react-email/column/-/column-0.0.9.tgz#3107f50216c0cfed0a42b0386e3ccfdac0ec12e6"
   integrity sha512-1ekqNBgmbS6m97/sUFOnVvQtLYljUWamw8Y44VId95v6SjiJ4ca+hMcdOteHWBH67xkRofEOWTvqDRea5SBV8w==
 
-"@react-email/components@^0.0.14":
-  version "0.0.14"
-  resolved "https://registry.yarnpkg.com/@react-email/components/-/components-0.0.14.tgz#9f6c06be7e9319e9fa51bb682c8f12103a9c7623"
-  integrity sha512-t/sNj0R9Mx9Sx5degPQcSBeWotNs7eUwiv72KN8v6fxaf87XlnMo0CPcKI/1by2DHZr5S0258ZQOO7vEFrbcLw==
+"@react-email/components@^0.0.15":
+  version "0.0.15"
+  resolved "https://registry.yarnpkg.com/@react-email/components/-/components-0.0.15.tgz#40157e541b057d96111b92adf505dbd636aa511e"
+  integrity sha512-jXfKiuyi94JBYfPVptEUwF57nRCvhEZIfyl2LqbL53fKsMrGlcjlN921iNnx1z41GAJOqZ8LPogeix3Iid23zw==
   dependencies:
     "@react-email/body" "0.0.7"
-    "@react-email/button" "0.0.13"
-    "@react-email/code-block" "0.0.2"
+    "@react-email/button" "0.0.14"
+    "@react-email/code-block" "0.0.3"
     "@react-email/code-inline" "0.0.1"
     "@react-email/column" "0.0.9"
     "@react-email/container" "0.0.11"
@@ -531,6 +531,7 @@
     "@react-email/html" "0.0.7"
     "@react-email/img" "0.0.7"
     "@react-email/link" "0.0.7"
+    "@react-email/markdown" "0.0.8"
     "@react-email/preview" "0.0.8"
     "@react-email/render" "0.0.12"
     "@react-email/row" "0.0.7"
@@ -579,6 +580,13 @@
   version "0.0.7"
   resolved "https://registry.yarnpkg.com/@react-email/link/-/link-0.0.7.tgz#7670b5be4430f173a467423a5c79c2d0e261b70b"
   integrity sha512-hXPChT3ZMyKnUSA60BLEMD2maEgyB2A37yg5bASbLMrXmsExHi6/IS1h2XiUPLDK4KqH5KFaFxi2cdNo1JOKwA==
+
+"@react-email/markdown@0.0.8":
+  version "0.0.8"
+  resolved "https://registry.yarnpkg.com/@react-email/markdown/-/markdown-0.0.8.tgz#4dc912c6213555dcf995ae135abe3975a7e59c31"
+  integrity sha512-x/2iTWskE0XoM13Rx80ckwbWaWdS6koYvxW6PHkOJ/k88NPnDIm+TaYvvg2DYSFJAUI0gK/LmIwenbebgNDS+w==
+  dependencies:
+    md-to-react-email "4.1.0"
 
 "@react-email/preview@0.0.8":
   version "0.0.8"
@@ -2341,6 +2349,18 @@ lucide-react@^0.334.0:
   version "0.334.0"
   resolved "https://registry.yarnpkg.com/lucide-react/-/lucide-react-0.334.0.tgz#ae0eca9afa28876f3f84fa6e144d69b6f88d12fe"
   integrity sha512-y0Rv/Xx6qAq4FutZ3L/efl3O9vl6NC/1p0YOg6mBfRbQ4k1JCE2rz0rnV7WC8Moxq1RY99vLATvjcqUegGJTvA==
+
+marked@7.0.4:
+  version "7.0.4"
+  resolved "https://registry.yarnpkg.com/marked/-/marked-7.0.4.tgz#e2558ee2d535b9df6a27c6e282dc603a18388a6d"
+  integrity sha512-t8eP0dXRJMtMvBojtkcsA7n48BkauktUKzfkPSCq85ZMTJ0v76Rke4DYz01omYpPTUh4p/f7HePgRo3ebG8+QQ==
+
+md-to-react-email@4.1.0:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/md-to-react-email/-/md-to-react-email-4.1.0.tgz#173b6ddac14ceac8f1674272d881f3f4c59d8ea3"
+  integrity sha512-aQvj4dCuy0wmBVvSB377qTErlpjN5Pl61+5v+B8Z76KoxOgKhbzvK3qnO94eOsuGSWwI+9n4zb3xD3/MypxM4w==
+  dependencies:
+    marked "7.0.4"
 
 merge2@^1.3.0, merge2@^1.4.1:
   version "1.4.1"
