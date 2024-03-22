@@ -23,7 +23,7 @@
         "@tailwindcss/forms": "^0.5.3",
         "@types/node": "20.11.25",
         "@types/react": "^18.2.61",
-        "@types/react-dom": "^18.2.19",
+        "@types/react-dom": "^18.2.22",
         "autoprefixer": "10.4.17",
         "axios": "^1.6.7",
         "class-variance-authority": "^0.7.0",
