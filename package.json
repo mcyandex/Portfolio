@@ -18,7 +18,7 @@
         "@hookform/resolvers": "^3.3.4",
         "@radix-ui/react-slot": "^1.0.2",
         "@radix-ui/react-toast": "^1.1.5",
-        "@react-email/components": "^0.0.15",
+        "@react-email/components": "^0.0.16",
         "@react-email/render": "^0.0.12",
         "@tailwindcss/forms": "^0.5.3",
         "@types/node": "20.11.25",
