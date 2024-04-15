@@ -21,7 +21,7 @@
         "@react-email/components": "^0.0.16",
         "@react-email/render": "^0.0.12",
         "@tailwindcss/forms": "^0.5.3",
-        "@types/node": "20.11.25",
+        "@types/node": "20.12.7",
         "@types/react": "^18.2.74",
         "@types/react-dom": "^18.2.25",
         "autoprefixer": "10.4.19",
