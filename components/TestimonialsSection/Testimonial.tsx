@@ -35,7 +35,7 @@ function Testimonial({
                         loading="lazy"
                         className="h-10 w-10 flex-none rounded-full bg-gray-50"
                         src={pfp}
-                        alt=""
+                        alt={name}
                     />
                 )}
                 <div className="flex-auto">
