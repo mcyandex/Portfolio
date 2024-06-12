@@ -4,15 +4,15 @@ import Navbar from '@/components/Navbar'
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-    title: 'Chirag Bhalotia',
-    description: 'Chirag Bhalotia | Full Stack Web Developer',
+    title: 'Miguel Cano',
+    description: 'Miguel Cano | Full Stack Web Developer',
     icons: '/favicon.png',
-    creator:"Chirag Bhalotia",
+    creator:"Miguel Cano",
     
     authors: [
         {
-            name: 'Chirag Bhalotia',
-            url: 'https://github.com/chirag3003',
+            name: 'Miguel Cano',
+            url: 'https://github.com/mcyandex',
         },
     ],
 }
