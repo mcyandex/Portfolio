@@ -1,59 +1,52 @@
 const skills = [
     {
-        name: 'Golang',
-        icon: '/skills/golang.png',
+        name: 'Chatbot',
+        icon: '/skills/chatbot.png',
     },
     {
-        name: 'Kotlin',
-        icon: '/skills/kotlin.webp',
+        name: 'Gen AI',
+        icon: '/skills/gen-ai.svg',
     },
     {
-        name: 'Java',
-        icon: '/skills/java.svg',
+        name: 'RAG',
+        icon: '/skills/rag.svg',
     },
     {
-        name: 'NextJS',
-        icon: '/skills/nextjs.webp',
+        name: 'Langchain',
+        icon: '/skills/langchain.svg',
     },
     {
         name: 'NodeJS',
         icon: '/skills/nodejs.webp',
     },
     {
-        name: 'JavaScript',
-        icon: '/skills/js.svg',
+        name: 'Python',
+        icon: '/skills/python.svg',
     },
-    {
-        name: 'CSS',
-        icon: '/skills/css.svg',
-    },
-    {
-        name: 'HTML',
-        icon: '/skills/html.svg',
-    },
+   
     {
         name: 'TypeScript',
         icon: '/skills/ts.svg',
     },
     {
-        name: 'Serverless',
-        icon: '/skills/serverless.png',
+        name: 'RESTful API',
+        icon: '/skills/rest-api.svg',
     },
     {
-        name: 'Git',
-        icon: '/skills/git.svg',
+        name: 'React',
+        icon: '/skills/react.svg',
     },
     {
-        name: 'MongoDB',
-        icon: '/skills/mongodb.svg',
-    },
-    {
-        name: 'Android',
-        icon: '/skills/android.svg',
+        name: 'Next.js',
+        icon: '/skills/nextjs.webp',
     },
     {
         name: 'Tailwind CSS',
         icon: '/skills/tailwind.svg',
+    },
+    {
+        name: 'Mongo DB',
+        icon: '/skills/mongodb.svg',
     },
 ]
 
