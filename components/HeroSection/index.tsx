@@ -12,22 +12,21 @@ function HeroSection() {
         <section id='home' className="lg:h-screen w-full flex flex-col lg:flex-row items-center px-10  max-w-7xl mx-auto py-28">
             <div className="text w-full lg:w-1/2">
                 <h1 className="text-2xl lg:text-3xl">
-                    Hi I{"'"}m <br />
+
                     <span className="text-6xl md:text-7xl lg:text-8xl font-semibold bg-clip-text text-transparent bg-gradient-to-br from-primary  to-accent">
-                        Chirag
+                        Miguel Cano <br />
                     </span>
                 </h1>
                 <p className="lg:text-lg text-muted mt-4 font-medium max-w-xl">
-                    Greetings! I{"'"}m a passionate full-stack web developer
-                    with over three years of hands-on experience. I thrive on
-                    turning ideas into seamless digital experiences. With a
-                    background in freelancing, I bring a proven track record of
-                    delivering exceptional services to diverse clients. Let{"'"}
-                    s craft something extraordinary together!
+                    Hello, I am a highly experienced and versatile AI expert, specializing in Generative AI, Large Language Models(LLM), Retrieval-Augmented Generation(RAG), Natural Language Processing(NLP), Computer Vision , and Data Science.
+                    I am passionate about working to solve complex problems and drive innovation in artificial intelligence.
+                    I look forward to contributing to your business.
+                    <br />
+                    <br />Please feel free to reach out to me.
                 </p>
                 <div className="links mt-10 flex items-center gap-6">
                     <Link
-                        href={'https://github.com/chirag3003'}
+                        href={'https://github.com/mcyandex'}
                         target="_blank"
                         referrerPolicy="no-referrer"
                         className="hover:scale-110 cursor-pointer"
@@ -36,7 +35,7 @@ function HeroSection() {
                         <div className="sr-only">Github</div>
                     </Link>
                     <Link
-                        href={'https://linkedin.com/in/chiragbhalotia'}
+                        href={'https://linkedin.com/in/Miguelbhalotia'}
                         target="_blank"
                         referrerPolicy="no-referrer"
                         className="hover:scale-110 cursor-pointer"
@@ -45,16 +44,7 @@ function HeroSection() {
                         <div className="sr-only">Linkedin</div>
                     </Link>
                     <Link
-                        href={'https://www.instagram.com/code.chirag'}
-                        target="_blank"
-                        referrerPolicy="no-referrer"
-                        className="hover:scale-110 cursor-pointer"
-                    >
-                        <Instagram height={35} width={35} />
-                        <div className="sr-only">Instagram</div>
-                    </Link>
-                    <Link
-                        href={'mailto:me@chirag.codes'}
+                        href={'mailto:me@Miguel.codes'}
                         target="_blank"
                         referrerPolicy="no-referrer"
                         className="hover:scale-110 cursor-pointer"
@@ -78,7 +68,7 @@ function HeroSection() {
             </div>
             <div className="image w-full lg:w-1/2 relative aspect-square -mt-10 ">
                 <Image
-                    src="/chirag.webp"
+                    src="/img.png"
                     className="w-full aspect-square"
                     alt=""
                     fill={true}

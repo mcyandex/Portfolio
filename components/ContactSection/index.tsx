@@ -46,38 +46,21 @@ function ContactSection() {
                     <Link
                         target="_blank"
                         referrerPolicy="no-referrer"
-                        href={'https://github.com/chirag3003'}
+                        href={'https://github.com/mcyandex'}
                         className="flex items-center w-full justify-left text-xl lg:text-2xl gap-5 font-bold px-10 py-5 bg-accent/10 rounded-xl"
                     >
                         <GitHub height={35} width={35} />
                         <p>Github</p>
                     </Link>
+                    
                     <Link
                         target="_blank"
                         referrerPolicy="no-referrer"
-                        href={'https://linkedin.com/in/chiragbhalotia'}
-                        className="flex items-center w-full justify-left text-xl lg:text-2xl gap-5 font-bold px-10 py-5 bg-accent/10 rounded-xl"
-                    >
-                        <Linkedin height={35} width={35} />
-                        <p>LinkedIn</p>
-                    </Link>
-                    <Link
-                        target="_blank"
-                        referrerPolicy="no-referrer"
-                        href={'https://www.instagram.com/code.chirag'}
-                        className="flex items-center w-full justify-left text-xl lg:text-2xl gap-5 font-bold px-10 py-5 bg-accent/10 rounded-xl"
-                    >
-                        <Instagram height={35} width={35} />
-                        <p>Instagram</p>
-                    </Link>
-                    <Link
-                        target="_blank"
-                        referrerPolicy="no-referrer"
-                        href={'mailto:me@chirag.codes'}
+                        href={'mailto:me@miguel.codes'}
                         className="flex items-center w-full justify-left text-sm lg:text-2xl gap-5 font-bold px-10 py-5 bg-accent/10 rounded-xl"
                     >
                         <Mail height={35} width={35} />
-                        <p>chiragbhalotia0412@gmail.com</p>
+                        <p>miguelcyandex130@gmail.com</p>
                     </Link>
                 </div>
                 <form
