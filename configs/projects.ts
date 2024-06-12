@@ -13,19 +13,19 @@ const projects = [
     {
         img: '/chatbot1.jpg',
         title: 'Artificial Intelligence',
-        url: 'https://www.gravityproxies.com/'
+        url: 'https://iflair.com/'
 
     },
     {
         img: '/chatbot2.png',
         title: 'Frontend Development',
-        url: 'https://www.gravityproxies.com/'
+        url: 'https://mida.gov.my/'
 
     },
     {
-        img: '/backend.svg',
-        title: 'Fullstack Development',
-        url: 'https://www.gravityproxies.com/'
+        img: '/genai.png',
+        title: 'Generate AI image',
+        url: 'https://getimg.ai/'
 
     },
     {
