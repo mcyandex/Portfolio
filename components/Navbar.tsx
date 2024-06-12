@@ -17,8 +17,8 @@ const navLinks = [
         link: '#skills',
     },
     {
-        name: 'Testimonials',
-        link: '#testimonials',
+        name: 'Feedback',
+        link: 'Feedback',
     },
     {
         name: 'Contact',
@@ -67,12 +67,9 @@ function Navbar() {
                 <div className="max-w-7xl mx-auto flex items-center justify-between">
                     <Link href="#home">
                         <header className="flex items-center gap-1">
-                            <span>{'< '}</span>
                             <h1 className="text-2xl font-medium">
-                                {' '}
-                                {'Chirag'}
+                                {'MCYandex'}
                             </h1>
-                            <span>{' />'}</span>
                         </header>
                     </Link>
                     <nav className="text-muted gap-8 hidden items-center  lg:flex">
