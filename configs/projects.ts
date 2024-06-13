@@ -12,19 +12,19 @@ const projects = [
     },
     {
         img: '/chatbot1.jpg',
-        title: 'Artificial Intelligence',
+        title: 'AI chatbot',
         url: 'https://iflair.com/'
 
     },
     {
         img: '/chatbot2.png',
-        title: 'Frontend Development',
+        title: 'AI chatbot',
         url: 'https://mida.gov.my/'
 
     },
     {
         img: '/genai.png',
-        title: 'Generate AI image',
+        title: 'Generative AI',
         url: 'https://getimg.ai/'
 
     },

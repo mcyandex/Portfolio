@@ -17,8 +17,8 @@ const navLinks = [
         link: '#skills',
     },
     {
-        name: 'Feedback',
-        link: 'Feedback',
+        name: 'Projects',
+        link: '#Projects',
     },
     {
         name: 'Contact',

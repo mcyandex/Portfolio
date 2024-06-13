@@ -1,6 +1,6 @@
 import { Linkedin, Mail } from 'lucide-react'
 import React from 'react'
-import { GitHub, Instagram } from 'react-feather'
+import { GitHub } from 'react-feather'
 import { buttonVariants } from '@/components/ui/button'
 import Link from 'next/link'
 import { cn } from '@/lib/utils'
@@ -66,10 +66,10 @@ function HeroSection() {
                     <ProjectButton />
                 </div>
             </div>
-            <div className="image w-full lg:w-1/2 relative aspect-square -mt-10 ">
+            <div className="image w-full lg:w-1/2 relative aspect-square mt-20 ">
                 <Image
-                    src="/img.png"
-                    className="w-full aspect-square"
+                    src="/myphoto.png"
+                    className="w-full aspect-square rounded-full"
                     alt=""
                     fill={true}
                     priority={true}

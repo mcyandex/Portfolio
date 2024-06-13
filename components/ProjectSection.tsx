@@ -2,13 +2,12 @@
 
 import React from 'react'
 import { motion } from 'framer-motion'
-import { Card, CardDescription, CardHeader, CardTitle } from './ui/card'
+import { Card, CardHeader, CardTitle } from './ui/card'
 import projects from '@/configs/projects'
-import { Link } from 'lucide-react'
 
 function ProjectsSection() {
     return (
-        <section id="services" className="bg-accent/5">
+        <section id="Projects" className="bg-accent/5">
             <div className="max-w-7xl mx-auto p-10 ">
                 <h2 className="text-primary text-5xl md:text-6xl font-semibold mb-20">
                     My Projects
