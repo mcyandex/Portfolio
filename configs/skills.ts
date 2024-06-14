@@ -4,7 +4,7 @@ const skills = [
         icon: '/skills/chatbot.png',
     },
     {
-        name: 'Gen AI',
+        name: 'Generative AI',
         icon: '/skills/gen-ai.svg',
     },
     {

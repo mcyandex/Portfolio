@@ -17,7 +17,7 @@ function Experience({
     description,
 }: ExperienceProps) {
     return (
-        <figure className="rounded-2xl bg-background shadow-lg ring-1 ring-primary flex flex-col">
+        <figure className="rounded-2xl bg-background shadow-lg ring-1 ring-primary flex flex-col min-h-[600px]">
             <figcaption className="flex flex-wrap items-center gap-x-4 gap-y-4 border-t border-primary/10 px-6 py-4 sm:px-12 lg:flex-nowrap">
                 {img && (
                     <img
@@ -35,7 +35,7 @@ function Experience({
                 <div>{company}</div>
                 <div>{during}</div>
             </div>
-            <blockquote className="p-6 text-lg font-semibold leading-7 tracking-tight sm:p-12 sm:text-xl sm:leading-8 flex-1">
+            <blockquote className="p-6 !text-[16px] font-semibold leading-7 tracking-tight sm:p-12 sm:text-xl sm:leading-8 flex-1 line">
                 <ol>
                     {description.map((item, index) => (
                         <li key={index}>- {item}</li>

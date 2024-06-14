@@ -1,36 +1,29 @@
 const experience = [
     {
-        img: '/rewire.png',
+        img: '/company/rewire.png',
         role: 'Senior AI engineer',
         company: 'Rewire Company',
         during: 'November 2021 - April 2024',
         description: [
-            `Developed and implemented AI algorithms and
-            models to solve complex problems, improving the
-            accuracy and efficiency of data analysis by 23%.`,
-            `Designed and developed an AI-powered web
-            application that increased user engagement by
-            32% and reduced customer churn by 12%`,
-            `By examining and analyzing data to identify trends
-            and patterns, developed a forecasting model that
-            improved sales forecast accuracy by 9%`,
+            `Improved the accuracy and efficiency of financial data analysis by 23% by developing and implementing AI algorithms and models.`,
+            `Perfected the image recognition algorithm, improving object detection accuracy by 15% and improving real-time image processing capabilities.`,
+            `Designed an AI framework that improves human-AI interaction, proven to increase customer satisfaction ratings by 30% and user engagement levels by 25%.
+`,
+            `Achieved 95% accuracy in handling customer interactions and reduced customer service response time by 40% by validating and fine-tuning our AI-based chatbot.`,
         ],
     },
     {
-        img: '/sancrisoft.png',
+        img: '/company/sancrisoft.png',
         role: 'Senior Web developer',
         company: 'Sancrisoft Company',
         during: 'March 2020 - April 2021',
         description: [
-            `Developed and maintained web applications using
-            Python, Node.js, React.js and RESTful API, ensuring
-            high performance and scalability.`,
-            `Redesigned client portal to improve user
-            experience, increasing customer satisfaction scores
-            by 21%`,
-            `Optimized backend processing speed through
-            codebase improvements, improving performance
-            by 48%`,
+            `Led the development of a new responsive e-commerce platform using React and Redux, resulting in a 35% increase in user engagement and 25% increase in sales within the first 6 months of launch.
+`,
+            `Designed and implemented a RESTful API that improved web application performance by 30% and reduced average response time by 50%.
+`,
+            `By optimizing database queries for enterprise applications, data retrieval speeds improved by more than 70% and user satisfaction improved by 24%.`,
+            `Implemented advanced caching techniques to optimize website performance and improve page load times by 40%.`,
         ],
     },
 ]

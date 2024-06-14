@@ -1,13 +1,17 @@
 const education = [
     {
-        img: 'sergio.png',
+        img: '/edu/sergio.png',
         title: 'Bachelor of Computer science',
-        university: 'Sergio Arboleda University',
+        university: 'Sergio Arboleda University (2015 - 2016)',
+        degree: '/edu/bachelor.png',
+        description: '(June 2019)'
     },
     {
-        img: 'hogeschool.png',
+        img: '/edu/hogeschool.png',
         title: 'Master of Computer science',
-        university: 'Hogeschool Leiden',
+        university: 'Hogeschool Leiden (2016 - 2019)',
+        degree: '/edu/master.png',
+        description: '(July 2016)'
     },
 ]
 
