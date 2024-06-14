@@ -27,7 +27,7 @@ function HeroSection() {
                         Miguel Cano <br />
                     </span>
                 </h1>
-                <p className="lg:text-lg text-muted mt-4 font-medium max-w-xl">
+                <p className="lg:text-lg text-muted mt-4 font-medium">
                     Hello, I am a highly experienced and versatile AI expert, specializing in Generative AI, Large Language Models(LLM), Retrieval-Augmented Generation(RAG), Natural Language Processing(NLP), Computer Vision , and Data Science.
                     I am passionate about working to solve complex problems and drive innovation in artificial intelligence.
                     I look forward to contributing to your business.
