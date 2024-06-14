@@ -14,9 +14,9 @@ function SkillsSection() {
                 <div className="w-3/4 md:w-1/2 items-center px-10">
                     <img
                         loading="lazy"
-                        src="/img.png"
+                        src="/devme.png"
                         alt=""
-                        className="w-full aspect-square rounded-full"
+                        className="w-full aspect-square object-cover opacity-50 rounded-2xl"
                     />
                 </div>
                 <div className="w-full lg:px-20 lg:w-1/2 grid grid-cols-3  md:grid-cols-4 gap-10 lg:gap-1">

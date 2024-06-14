@@ -12,8 +12,8 @@ function HeroSection() {
         <section id='home' className="lg:h-screen w-full flex flex-col lg:flex-row items-center px-10  max-w-7xl mx-auto py-28 gap-32">
             <div className="image w-3/4 md:w-1/2 lg:w-1/2 relative aspect-square mt-20 ">
                 <Image
-                    src="/myphoto.png"
-                    className="w-full object-cover aspect-square rounded-full"
+                    src="/stume.png"
+                    className="w-full object-cover aspect-square rounded-3xl opacity-80"
                     alt=""
                     fill={true}
                     priority={true}

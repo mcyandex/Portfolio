@@ -74,7 +74,8 @@ function Navbar() {
             <div className="wrapper px-10 py-5 w-full relative">
                 <div className="max-w-7xl mx-auto flex items-center justify-between">
                     <Link href="#home">
-                        <header className="flex items-center gap-1">
+                        <header className="flex items-center gap-5">
+                            <img src='logo.jpg' className='w-12 h-12 rounded-md ' alt='IMG'></img>
                             <h1 className="text-2xl font-medium">
                                 {'Miguel Cano'}
                             </h1>

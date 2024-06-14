@@ -11,9 +11,9 @@ const projects = [
         url: 'https://tf-2-blaze.vercel.app/'
     },
     {
-        img: '/project/chatbot1.jpg',
+        img: '/project/chatbot1.png',
         title: 'iFlair AI chatbot',
-        url: 'https://iflair.com/'
+        url: 'https://rewire.ai/polygon-ai/'
 
     },
     {
