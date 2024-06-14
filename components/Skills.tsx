@@ -11,7 +11,7 @@ function SkillsSection() {
                 My Skills
             </h2>
             <div className="flex flex-col-reverse lg:flex-row w-full items-center gap-20">
-                <div className="w-full lg:w-1/2 items-center px-10">
+                <div className="w-3/4 md:w-1/2 items-center px-10">
                     <img
                         loading="lazy"
                         src="/img.png"
