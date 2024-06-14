@@ -1,6 +1,9 @@
+'use client'
+
 import React from 'react'
-import Education from './Education'
 import educations from '@/configs/educations'
+import Education from './Education'
+import { motion } from 'framer-motion'
 
 function EducationsSection() {
     return (
@@ -10,9 +13,28 @@ function EducationsSection() {
                     Education
                 </h2>
                 <div className="educations grid md:grid-cols-2 gap-4">
-                    {educations.map((education, index) => {
-                        return <Education {...education} key={index} />
-                    })}
+                    {educations.map((education, index) => (
+                        <motion.div
+                            key={index}
+                            initial={{
+                                opacity: 0.4,
+                                y: 200,
+                            }}
+                            whileInView={{
+                                opacity: 1,
+                                y: 0,
+                            }}
+                            transition={{
+                                duration: 0.4,
+                            }}
+                            viewport={{
+                                once: true,
+                            }}
+                            className="w-full h-full"
+                        >
+                            <Education {...education} />
+                        </motion.div>
+                    ))}
                 </div>
             </div>
         </section>
