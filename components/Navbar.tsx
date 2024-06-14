@@ -68,7 +68,7 @@ function Navbar() {
                     <Link href="#home">
                         <header className="flex items-center gap-1">
                             <h1 className="text-2xl font-medium">
-                                {'MCYandex'}
+                                {'Miguel Cano'}
                             </h1>
                         </header>
                     </Link>

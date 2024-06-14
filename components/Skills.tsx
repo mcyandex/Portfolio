@@ -10,7 +10,7 @@ function SkillsSection() {
             <h2 className="text-primary text-5xl md:text-6xl font-semibold mb-20">
                 My Skills
             </h2>
-            <div className="flex flex-col-reverse lg:flex-row w-full items-center">
+            <div className="flex flex-col-reverse lg:flex-row w-full items-center gap-20">
                 <div className="w-full lg:w-1/2 items-center px-10">
                     <img
                         loading="lazy"
