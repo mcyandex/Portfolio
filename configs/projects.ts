@@ -12,14 +12,14 @@ const projects = [
     },
     {
         img: '/project/chatbot1.png',
-        title: 'iFlair AI chatbot',
+        title: 'Iflair AI chatbot',
         url: 'https://rewire.ai/polygon-ai/'
 
     },
     {
         img: '/project/chatbot2.png',
-        title: 'MIDA AI chatbot',
-        url: 'https://mida.gov.my/'
+        title: 'Tiledesk AI chatbot',
+        url: 'https://tiledesk.com/'
 
     },
     {
