@@ -9,7 +9,10 @@ import ProjectButton from './projectButton'
 
 function HeroSection() {
     return (
-        <section id='home' className="lg:h-screen w-full flex flex-col lg:flex-row items-center px-10  max-w-7xl mx-auto py-28 gap-32">
+        <section
+            id="home"
+            className="lg:h-screen w-full flex flex-col lg:flex-row items-center px-10  max-w-7xl mx-auto py-28 gap-32"
+        >
             <div className="image w-3/4 md:w-1/2 lg:w-1/2 relative aspect-square mt-20 ">
                 <Image
                     src="/stume.png"
@@ -22,19 +25,25 @@ function HeroSection() {
             </div>
             <div className="text w-full lg:w-1/2">
                 <h1 className="text-2xl lg:text-3xl">
-
                     <span className="text-6xl md:text-7xl lg:text-8xl font-semibold bg-clip-text text-transparent bg-gradient-to-br from-primary  to-accent">
                         Miguel Cano <br />
                     </span>
                 </h1>
                 <p className="lg:text-lg text-muted mt-4 font-medium">
-                    Hello, I am a highly experienced and versatile AI expert, specializing in Generative AI, Large Language Models(LLM), Retrieval-Augmented Generation(RAG), Natural Language Processing(NLP), Computer Vision , and Data Science.
-                    I am passionate about working to solve complex problems and drive innovation in artificial intelligence.
-                    I look forward to contributing to your business.
-                    <br />
-                    <br />Please feel free to reach out to me.
+                    Experienced AI Engineer with 5 years of expertise at
+                    Sancrisoft and Rewire, specializing in cutting-edge
+                    technologies such as AI chatbot, langchain, RAG, and
+                    Generative AI. With a strong background in natural language
+                    processing, and AI-driven systems, I have successfully
+                    implemented projects that have significantly improved
+                    retention rates and optimized real-time applications. My
+                    proficiency in prompt engineering and the use of advanced
+                    LLM tools like ChatGPT enables me to deliver exceptional
+                    results. As a senior AI engineer, I bring a wealth of
+                    expertise and a passion for pushing the boundaries of AI
+                    technology.
+                    
                 </p>
-               
             </div>
         </section>
     )
