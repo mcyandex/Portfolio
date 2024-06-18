@@ -4,12 +4,16 @@ const skills = [
         icon: '/skills/chatbot.png',
     },
     {
-        name: 'Generative AI',
-        icon: '/skills/gen-ai.svg',
+        name: 'Gen AI',
+        icon: '/skills/gen AI.jpg',
     },
     {
         name: 'RAG',
-        icon: '/skills/rag.svg',
+        icon: '/skills/rag.jpg',
+    },
+    {
+        name: 'LLM',
+        icon: '/skills/llm.jpg',
     },
     {
         name: 'Langchain',
@@ -23,18 +27,17 @@ const skills = [
         name: 'Python',
         icon: '/skills/python.svg',
     },
-   
     {
         name: 'TypeScript',
         icon: '/skills/ts.svg',
     },
     {
-        name: 'RESTful API',
-        icon: '/skills/rest-api.svg',
+        name: 'ReactJS',
+        icon: '/skills/react.svg',
     },
     {
-        name: 'React',
-        icon: '/skills/react.svg',
+        name: 'MongoDB',
+        icon: '/skills/mongodb.svg',
     },
     {
         name: 'Next.js',
@@ -45,8 +48,16 @@ const skills = [
         icon: '/skills/tailwind.svg',
     },
     {
-        name: 'Mongo DB',
-        icon: '/skills/mongodb.svg',
+        name: 'SASS',
+        icon: '/skills/sass.png',
+    },
+    {
+        name: 'Vue.js',
+        icon: '/skills/vue.png',
+    },
+    {
+        name: 'RESTAPI',
+        icon: '/skills/rest-api.svg',
     },
 ]
 

@@ -14,12 +14,12 @@ function SkillsSection() {
                 <div className="w-3/4 md:w-1/2 items-center px-10">
                     <img
                         loading="lazy"
-                        src="/devme.png"
+                        src="/robot3.jpg"
                         alt=""
-                        className="w-full aspect-square object-cover opacity-50 rounded-2xl"
+                        className="w-full aspect-square object-cover opacity-80 rounded-3xl"
                     />
                 </div>
-                <div className="w-full lg:px-20 lg:w-1/2 grid grid-cols-3  md:grid-cols-4 gap-10 lg:gap-1">
+                <div className="w-full lg:px-20 lg:w-1/2 grid grid-cols-3  md:grid-cols-5 gap-10 lg:gap-1">
                     {skills.map(({ name, icon }, index) => {
                         return (
                             <div
