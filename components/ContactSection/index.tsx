@@ -52,7 +52,7 @@ function ContactSection() {
                         <GitHub height={35} width={35} />
                         <p>Github</p>
                     </Link>
-                    
+
                     <Link
                         target="_blank"
                         referrerPolicy="no-referrer"
