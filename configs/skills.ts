@@ -5,15 +5,15 @@ const skills = [
     },
     {
         name: 'Gen AI',
-        icon: '/skills/gen AI.jpg',
+        icon: '/skills/gen-ai.svg',
     },
     {
         name: 'RAG',
-        icon: '/skills/rag.jpg',
+        icon: '/skills/rag.png',
     },
     {
         name: 'LLM',
-        icon: '/skills/llm.jpg',
+        icon: '/skills/llm.png',
     },
     {
         name: 'Langchain',
