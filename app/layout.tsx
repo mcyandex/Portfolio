@@ -18,6 +18,10 @@ export default function RootLayout({ children }: RootLayoutProps) {
     }, [])
     return (
         <html lang="en">
+            <head>
+                <title>Miguel Cano</title>
+                <link rel="icon" href="/favicon.ico" />
+            </head>
             <body className={`text-text bg-background dark`}>
                 {!loading ? (
                     <div className="flex h-screen flex-col justify-center">
