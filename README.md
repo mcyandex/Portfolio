@@ -1,4 +1,4 @@
-This is a [Next.js](https://nextjs.org/) project configured with [TypeScript](https://www.typescriptlang.org/) and [Tailwind CSS](https://tailwindcss.com/) created by [Brag Club](https://github.com/brag-club)
+This is a [Next.js](https://nextjs.org/) project configured with [TypeScript](https://www.typescriptlang.org/) and [Tailwind CSS](https://tailwindcss.com/)
 
 ## Getting Started
 

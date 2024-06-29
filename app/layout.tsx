@@ -1,33 +1,41 @@
+'use client'
 import './globals.css'
 import { Toaster } from '@/components/ui/toaster'
 import Navbar from '@/components/Navbar'
-import { Metadata } from 'next'
-
-export const metadata: Metadata = {
-    title: 'Miguel Cano',
-    description: 'Miguel Cano | Full Stack Web Developer',
-    icons: '/favicon.png',
-    creator:"Miguel Cano",
-    
-    authors: [
-        {
-            name: 'Miguel Cano',
-            url: 'https://github.com/mcyandex',
-        },
-    ],
-}
+import { Spinner } from '@/components/Spinner'
+import { useEffect, useState } from 'react'
 
 interface RootLayoutProps {
     children: React.ReactNode
 }
 
 export default function RootLayout({ children }: RootLayoutProps) {
+    const [loading, setLoading] = useState(false)
+    useEffect(() => {
+        setTimeout(() => {
+            setLoading(true)
+        }, 2300)
+    }, [])
     return (
         <html lang="en">
+            <head>
+                <title>Miguel Cano</title>
+                <link rel="icon" href="/favicon.ico" />
+            </head>
             <body className={`text-text bg-background dark`}>
-                <Navbar />
-                {children}
-                <Toaster />
+                {!loading ? (
+                    <div className="flex h-screen flex-col justify-center">
+                        <div className="m-auto">
+                            <Spinner />
+                        </div>
+                    </div>
+                ) : (
+                    <>
+                        <Navbar />
+                        {children}
+                        <Toaster />
+                    </>
+                )}
             </body>
         </html>
     )
